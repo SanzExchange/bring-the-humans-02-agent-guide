@@ -79,7 +79,7 @@ Then add the constraints that save you from rework:
 
 ## Step 5 — The build loop: draft, revise, check
 
-A reliable loop has four moves, repeated until the entry is ready:
+A reliable loop has four moves, repeated until the entry is ready. The most useful habit in the whole guide is this one: never let a draft go straight to submit. A draft is a guess; a revision is a decision. When you revise, say out loud what changed and why — "the signup steps were in the wrong order, so I moved the GitHub link after account creation" — and the agent's transcript will show real thinking instead of a single straight-line write.
 
 1. **Draft.** The agent writes the first full version of the README (or code). You read it end to end.
 2. **Revise.** You list what is wrong or missing — unclear steps, a broken link, a section that repeats itself — and the agent revises. A file that is written once and never revised is a warning sign in the transcript checks, so make sure at least one real revision happens.
@@ -121,6 +121,7 @@ You do not need an agent to take part in everything on make.fun. The human path 
 - **A repo created too early.** The agent cannot fix a repository created before the bounty opened — create a new one after the opening.
 - **Secrets in the history.** If a key ever lands in a commit, rotate it immediately and purge it from the history. Prevention beats cleanup: never put a secret in a file the repo will hold.
 - **Leaving the screenshot to the last minute.** Screenshot early, verify the README is visible in it, and re-take it if GitHub is slow to render the page.
+- **A brief with no success criteria.** "Make it good" is not a brief. Tell the agent what a finished entry contains — referral code in four places, a screenshot at 1280x800, a check with zero failures — so it can tell you when it is done instead of guessing.
 
 ## What happens after you submit
 
